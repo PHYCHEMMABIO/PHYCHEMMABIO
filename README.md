@@ -1,14 +1,18 @@
-
-**PHYCHEMMABIO/PHYCHEMMABIO** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>PHYCHEMMABIO</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-</body> {
+  <style>
+    /* Reset & base styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
       font-family: "Segoe UI", sans-serif;
       line-height: 1.6;
       background: linear-gradient(to bottom, #0a1d56, #000000);
@@ -28,9 +32,10 @@
     }
 
     .logo {
-      font-size: 24px;
+      font-size: 28px;
       font-weight: bold;
       float: left;
+      letter-spacing: 1px;
     }
 
     nav {
@@ -57,11 +62,15 @@
 
     /* Main */
     main {
-      padding: 40px 0;
+      padding: 60px 0;
     }
 
     h2 {
-      margin-bottom: 10px;
+      margin-bottom: 15px;
+    }
+
+    p {
+      max-width: 700px;
     }
 
     /* Footer */
@@ -69,7 +78,8 @@
       background-color: rgba(10, 29, 86, 0.9);
       text-align: center;
       padding: 20px 0;
-      margin-top: 40px;
+      margin-top: 60px;
+      font-size: 14px;
     }
   </style>
 </head>
@@ -78,11 +88,12 @@
   <!-- Header -->
   <header>
     <div class="container">
-      <h1 class="logo">MySchool</h1>
+      <h1 class="logo">PHYCHEMMABIO</h1>
       <nav>
         <a href="#">Home</a>
-        <a href="#">Courses</a>
-        <a href="#">About</a>
+        <a href="#">Physics</a>
+        <a href="#">Chemistry</a>
+        <a href="#">Biology</a>
         <a href="#">Contact</a>
       </nav>
     </div>
@@ -91,18 +102,19 @@
   <!-- Main Content -->
   <main class="container">
     <section>
-      <h2>Welcome to MySchool</h2>
-      <p>This is a modern, student-friendly website layout inspired by Odoo themes, now with a sleek gradient background.</p>
+      <h2>Welcome to PHYCHEMMABIO</h2>
+      <p>PHYCHEMMABIO is a modern, student-focused educational site. Dive into the worlds of Physics, Chemistry,Maths and Biology — all at one place.</p>
     </section>
   </main>
 
   <!-- Footer -->
   <footer>
     <div class="container">
-      <p>&copy; 2025 MySchool. All rights reserved.</p>
+      <p>&copy; ©2025 PHYCHEMMABIO. All rights reserved.</p>
     </div>
   </footer>
 
 </body>
 </html>
+
 
