@@ -1,71 +1,43 @@
 
 **PHYCHEMMABIO/PHYCHEMMABIO** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-/* Basic Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Odoo-Inspired Site</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
 
-body {
-  font-family: "Segoe UI", sans-serif;
-  line-height: 1.6;
-  background-color: #ffffff;
-  color: #333;
-}
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <h1 class="logo">MySchool</h1>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">Courses</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-/* Container */
-.container {
-  width: 90%;
-  max-width: 1100px;
-  margin: auto;
-}
+  <!-- Main Content -->
+  <main class="container">
+    <section>
+      <h2>Welcome to MySchool</h2>
+      <p>This is a modern, student-friendly website layout inspired by Odoo themes.</p>
+    </section>
+  </main>
 
-/* Header */
-header {
-  background-color: #f8f9fa;
-  padding: 20px 0;
-  border-bottom: 1px solid #ddd;
-}
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 MySchool. All rights reserved.</p>
+    </div>
+  </footer>
 
-.logo {
-  font-size: 24px;
-  font-weight: bold;
-  float: left;
-}
+</body>
+</html>
 
-nav {
-  float: right;
-}
-
-nav a {
-  color: #333;
-  text-decoration: none;
-  margin-left: 20px;
-  font-weight: 500;
-}
-
-nav a:hover {
-  color: #007bff;
-}
-
-/* Clearfix */
-header::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Main */
-main {
-  padding: 40px 0;
-}
-
-/* Footer */
-footer {
-  background-color: #f8f9fa;
-  text-align: center;
-  padding: 20px 0;
-  border-top: 1px solid #ddd;
-  margin-top: 40px;
-}
