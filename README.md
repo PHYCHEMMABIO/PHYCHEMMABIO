@@ -8,7 +8,12 @@
   <title>PHYCHEMMABIO</title>
   <link rel="stylesheet" href="style.css" />
 </head>
-<body>
+<body>{
+      font-family: "Segoe UI", sans-serif;
+      line-height: 1.6;
+      background: linear-gradient(to bottom, #0a1d56, #000000);
+      color: #f5f5f5;
+    }
 
   <!-- Header -->
   <header>
