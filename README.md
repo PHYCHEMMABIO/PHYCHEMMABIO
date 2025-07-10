@@ -4,81 +4,69 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>PHYCHEMMABIO</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <!-- AOS (Animate on Scroll) CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <style>
-    /* Reset & base styles */
+    /* Reset and basic styles */
     * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
     }
-
     body {
-      font-family: "Segoe UI", sans-serif;
-      line-height: 1.6;
+      font-family: 'Inter', sans-serif;
       background: linear-gradient(to bottom, #0a1d56, #000000);
-      color: #f5f5f5;
+      color: #ffffff;
+      overflow-x: hidden;
     }
 
-    .container {
-      width: 90%;
-      max-width: 1100px;
-      margin: auto;
-    }
-
-    /* Header */
     header {
-      background-color: rgba(10, 29, 86, 0.9);
-      padding: 20px 0;
-    }
-
-    .logo {
-      font-size: 28px;
-      font-weight: bold;
-      float: left;
-      letter-spacing: 1px;
-    }
-
-    nav {
-      float: right;
-    }
-
-    nav a {
-      color: #f5f5f5;
-      text-decoration: none;
-      margin-left: 20px;
-      font-weight: 500;
-      transition: color 0.3s ease;
-    }
-
-    nav a:hover {
-      color: #00bfff;
-    }
-
-    header::after {
-      content: "";
-      display: table;
-      clear: both;
-    }
-
-    /* Main */
-    main {
-      padding: 60px 0;
-    }
-
-    h2 {
-      margin-bottom: 15px;
-    }
-
-    p {
-      max-width: 700px;
-    }
-
-    /* Footer */
-    footer {
-      background-color: rgba(10, 29, 86, 0.9);
+      padding: 30px;
       text-align: center;
-      padding: 20px 0;
-      margin-top: 60px;
+      background: rgba(0, 0, 0, 0.4);
+    }
+
+    header h1 {
+      font-size: 3rem;
+      letter-spacing: 2px;
+    }
+
+    section {
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    section h2 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+
+    section p {
+      max-width: 700px;
+      margin: 0 auto;
+      font-size: 1.1rem;
+      line-height: 1.7;
+      color: #dcdcdc;
+    }
+
+    .floating-img {
+      width: 200px;
+      animation: float 4s ease-in-out infinite;
+      margin: 40px auto;
+      display: block;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-20px); }
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: rgba(0, 0, 0, 0.3);
       font-size: 14px;
     }
   </style>
@@ -87,34 +75,23 @@
 
   <!-- Header -->
   <header>
-    <div class="container">
-      <h1 class="logo">PHYCHEMMABIO</h1>
-      <nav>
-        <a href="#">Home</a>
-        <a href="#">Physics</a>
-        <a href="#">Chemistry</a>
-        <a href="#">Biology</a>
-        <a href="#">Contact</a>
-      </nav>
-    </div>
+    <h1 data-aos="zoom-in">PHYCHEMMABIO</h1>
+    <p data-aos="fade-up" data-aos-delay="300">Explore Physics, Chemistry, and Biology in Motion</p>
   </header>
 
-  <!-- Main Content -->
-  <main class="container">
-    <section>
-      <h2>Welcome to PHYCHEMMABIO</h2>
-      <p>PHYCHEMMABIO is a modern, student-focused educational site. Dive into the worlds of Physics, Chemistry,Maths and Biology — all at one place.</p>
-    </section>
-  </main>
+  <!-- Hero Section -->
+  <section>
+    <img src="https://cdn-icons-png.flaticon.com/512/3197/3197964.png" alt="atom" class="floating-img" data-aos="fade-up" />
+    <h2 data-aos="fade-right">Physics</h2>
+    <p data-aos="fade-left" data-aos-delay="200">
+      Discover the laws that govern motion, energy, and matter. Experience Newton's brilliance in action.
+    </p>
+  </section>
 
-  <!-- Footer -->
-  <footer>
-    <div class="container">
-      <p>&copy; ©2025 PHYCHEMMABIO. All rights reserved.</p>
-    </div>
-  </footer>
+  <section>
+    <img src="https://cdn-icons-png.flaticon.com/512/1037/1037760.png" alt="chemistry" class="floating-img" data-aos="fade-up" />
+    <h2 data-aos="fade-right">Chemistry</h2>
+    <p data-aos="fade-left
 
-</body>
-</html>
 
 
